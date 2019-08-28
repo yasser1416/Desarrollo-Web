@@ -1,0 +1,35 @@
+#contenedor {
+	width: 620px;
+	margin: 0 auto;
+
+}
+#arriba {
+	width: 500px;
+	height: 80px;
+	background: #FF0000;
+}
+#izquierda {
+	width: 150px;
+	height: 300px;
+	background: #00FF00;
+	float: left;
+}
+#centro {
+	width: 150px;
+	height: 300px;
+	background: #00FF00;
+	float: center;
+}
+
+#cuerpo {
+	width:500px;
+	height: 300px;
+	background: #008080;
+	float: left;	
+}
+#abajo {
+	width: 500px;
+	height: 120px;
+	background: #FF0000;
+	clear:both;
+}
