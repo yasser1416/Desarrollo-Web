@@ -1,0 +1,32 @@
+
+body {
+  padding: 0 20px;
+  background-color: #F6F6FF;
+  font-family: sans-serif;
+
+}
+
+h1 {
+  margin: 10px;
+  font-size: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+input {
+  font-size: 100%;
+}
+
+.aviso {
+  color: red;
+}
+
+table.conborde, table.conborde td, table.conborde th, table.align center {
+  border: black 1px solid;
+  text-align: center;
+}
+
+#contenedor {
+	width: 900px;
+	margin: 0 auto;
+
+}
