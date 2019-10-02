@@ -1,0 +1,41 @@
+body {
+  padding: 0 20px;
+  background-color: #F6F6FF;
+  font-family: sans-serif;
+
+}
+
+h1 {
+  margin: 10px;
+  font-size: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+input {
+  font-size: 100%;
+}
+
+.aviso {
+  color: red;
+}
+
+table.conborde, table.conborde td, table.conborde th, table.align center {
+  border-collapse: collapse;
+  text-align: center;
+  width: 30px;
+  height: 50px;
+}
+
+.bg1 { background: red }
+.bg2 { background: yellow}
+/*o tambien backround-color:#0000;*/
+.bg3 { background: green}
+
+.normal {
+  width: 250px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+.normal th, .normal td {
+  border: 1px solid #000;
+}
