@@ -1,0 +1,78 @@
+#contenedor {
+	overflow: hidden;
+	width: 900px;
+
+	margin: 0 auto;
+	border: black 1px solid;
+}
+#arriba {
+	width: 900px;
+	height: 100px;
+	background: #ffffff;
+	border: black 1px solid;
+}
+#izquierda {
+	width : 120px;
+	height: 306px;
+	background: #FFFFFF;
+	float: left;
+	margin-top: 20px; 
+	padding: 0;
+	border: black 1px solid; 
+}
+
+#izquierda2 {
+	width: 120px;
+	height: 895px;
+	background: #2F4F4F;
+	float: left;
+	margin: ; 
+	padding: 0; 
+}	
+
+#izquierda3 {
+	width: 120px;
+	height: 390px;
+	background: #2F4F4F;
+	float: left;
+	margin: ; 
+	padding: 0; 
+}	
+
+#izquierda4 {
+	width: 120px;
+	height: 382px;
+	background: #2F4F4F;
+	float: left;
+	margin: ; 
+	padding: 0; 
+}
+	
+#abajo {
+	width: 200px;
+	height: 120px;
+	background: #FFFFFF;
+	clear:both;
+}
+#centro {
+	width:776px;
+	height: 306px;
+	background: #FFFFFF;
+	float: left;
+	
+
+}
+#centro2 {
+	width: 780px;
+
+	background:  	#CCCCCC;
+	float: left;
+}
+
+#centro3 {
+	width: 780px;
+
+	background:  	#CCCCCC;
+	float: left;
+}
+
