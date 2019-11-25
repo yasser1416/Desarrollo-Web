@@ -19,24 +19,21 @@
            
     	<?php 
     	for ($i=0; $i < $n; $i++) { 
-            $aux=$i;
-            $aux2=$i;
-            $aux3=$i;
-            $aux4=$i;
+          
             $con=$i+1;
     	?>
                 
     			<tr>&nbsp &nbsp &nbsp<?php echo "<b>$con</b>"; ?>&nbsp &nbsp<input type="text" name="txtnombres<?php echo $i?>">&nbsp &nbsp  </tr>
-                <tr><input type="text" name="txtapellidos <?php echo $aux?>"> &nbsp &nbsp</tr>
-                <tr><input type="text" name="txtcu <?php echo $aux2?>">&nbsp &nbsp </tr>
-                <tr>Masculino:<input type="radio" name="txtSexo <?php echo $aux3?>" value="masculino" >
-                    Femenino:<input type="radio" name="txtSexo <?php echo $aux3?>" value="femenino">&nbsp &nbsp  </tr>
-                <tr><select name="txtcarrera n<?php echo $aux4?>"> 
-                    <option>Ing. Sistemas</option>
+                <tr><input type="text" name=" <?php echo 'txtapellidos'.$i?>"> &nbsp &nbsp</tr>
+                <tr><input type="text" name="<?php echo 'txtcu'. $i?>">&nbsp &nbsp </tr>
+                <tr>Masculino:<input type="radio" name="txtSexo<?php echo $i?>" value="masculino" >
+                    Femenino:<input type="radio" name="txtSexo<?php echo $i?>" value="femenino">&nbsp &nbsp  </tr>
+                <tr><select name="<?php echo 'txtcarrera'. $i?>"> 
+                    <option value="245">Ing. Sistemas</option>
 
-                    <option selected>Ing. Ciencias de la Computacion</option>
+                    <option value="280">Ing. Ciencias de la Computacion</option>
 
-                    <option >Ing. Tecnologias de la Inf.</option>
+                    <option value="310">Ing. Tecnologias de la Inf.</option>
                 </select><br><br> </tr>
 
 
