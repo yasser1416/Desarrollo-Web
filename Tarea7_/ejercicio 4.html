@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<a href="hola.jpg">1er enlace</a>
+	
+	<p>
+	<a href="2.jpg">2do enlace</a>
+	
+	<p>
+	<a href="3.jpg">3er enlace </a>
+
+	<p>
+	<a href="4.jpg">4to enlace</a>
+
+	<p>
+	<a href="5.jpg">5to enlace</a>
+
+	<p>	
+
+
+<div id="resultado"></div>
+<input type="button" onclick="printDiv('resultado')" value="mostrar id=resultado" />
+<script type="text/javascript">
+var l=document.getElementsByTagName("a").length;
+document.getElementById('resultado').innerHTML='Existen '+l+' enlaces en la pagina <br>';
+
+function printDiv(nombreDiv) {
+     var contenido= document.getElementById(nombreDiv).innerHTML;
+     var contenidoOriginal= document.body.innerHTML;
+
+     document.body.innerHTML = contenido;
+
+     document.getElementsByTagName();
+
+
+     document.body.innerHTML = contenidoOriginal;
+}
+
+</script>
+
+</body>
+</html>
+

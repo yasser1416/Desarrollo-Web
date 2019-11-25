@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Invertir Cadena</title>
+	<script>
+		
+	function Rojo()
+		{
+			var cad=parseInt(document.getElementById("panel").value)
+			console.log(Rojo);
+		
+			document.getElementById("panel").style.backgroundColor="red";
+
+		}	
+		function Amarillo()
+		{
+			var cad=parseInt(document.getElementById("panel").value)
+		
+			document.getElementById("panel").style.backgroundColor="yellow";
+
+		}	
+		function Verde()
+		{
+			var cad=parseInt(document.getElementById("panel").value)
+		
+				document.getElementById("panel").style.backgroundColor="green";
+		
+
+
+		}		
+	</script>
+	</head>
+	<body>
+		<input type="button" value="Rojo" onclick="Rojo()"><br>
+		<input type="button" value="Amarillo" onclick="Amarillo()"><br>
+		<input type="button" value="Verde" onclick="Verde()"><br>
+		<input type="radio" id="fondo" name="txt" value="1" >Fondo
+		<input type="radio" id="primerplano" name="txt" value="0">Primer plano	<br>
+		<br/><textarea name="textarea" id="panel" cols="45"rows="5"></textarea>  Panel <br/>
+
+
+
+	</body>
+	</html>
